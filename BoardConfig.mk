@@ -15,6 +15,7 @@
 #
 
 DEVICE_PATH := device/essential/mata
+ALLOW_MISSING_DEPENDENCIES := true
 
 # Platform
 TARGET_ARCH := arm64

@@ -24,6 +24,7 @@
 # components.
 
 LOCAL_PATH := $(call my-dir)
+LOCAL_MULTILIB := both
 
 ifneq ($(filter mata, $(TARGET_DEVICE)),)
 

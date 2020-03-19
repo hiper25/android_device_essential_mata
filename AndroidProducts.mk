@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES += \
-    device/essential/mata/carbon_mata.mk
+    device/essential/mata/aosp_mata.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosp_mata-user \
+    aosp_mata-userdebug \
+    aosp_mata-eng
