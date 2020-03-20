@@ -1,6 +1,8 @@
 # Inherit some common EvolutionX stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
@@ -27,8 +29,6 @@ PRODUCT_MODEL := PH-1
 PRODUCT_MANUFACTURER := Essential Products
 PRODUCT_RELEASE_NAME := mata
 
-TARGET_BOOT_ANIMATION_RES := 1440
-TARGET_BOOT_ANIMATION_RES_EVO := true
 TARGET_GAPPS_ARCH := arm64
 CUSTOM_BUILD_TYPE := UNOFFICIAL
 TARGET_INCLUDE_STOCK_ARCORE := true
