@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES += \
-    device/essential/mata/aosp_mata.mk
+    device/essential/mata/titanium_mata.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_mata-user \
-    aosp_mata-userdebug \
-    aosp_mata-eng
+    titanium_mata-user \
+    titanium_mata-userdebug \
+    titanium_mata-eng
