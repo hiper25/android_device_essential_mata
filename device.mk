@@ -20,7 +20,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
 
 # Properties
--include device/essential/mata/system_prop.mk
+TARGET_SYSTEM_PROP := device/essential/mata/system.prop
 -include device/essential/mata/vendor_prop.mk
 
 # AAPT
