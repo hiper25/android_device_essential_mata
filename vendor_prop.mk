@@ -185,6 +185,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
 
+# VoLTE options
+PRODUCT_PROPERTY_OVERRIDES += \
+   persist.dbg.ims_volte_enable=1 \
+   persist.dbg.volte_avail_ovr=1 \
+   persist.dbg.vt_avail_ovr=1 \
+   persist.dbg.wfc_avail_ovr=1 \
+   persist.rcs.supported=0 \
+   persist.radio.calls.on.ims=1
+
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
