@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES += \
-    device/essential/mata/aosp_mata.mk
+    device/essential/mata/arrow_mata.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_mata-user \
-    aosp_mata-userdebug \
-    aosp_mata-eng
+    arrow_mata-user \
+    arrow_mata-userdebug \
+    arrow_mata-eng
