@@ -36,3 +36,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
         PRIVATE_BUILD_DESC="mata-user 8.1.0 OPM1.180104.092 224 release-keys"
 
 BUILD_FINGERPRINT := essential/mata/mata:8.1.0/OPM1.180104.092/224:user/release-keys
+
+OCTAVI_DEVICE_MAINTAINER := hiper25
