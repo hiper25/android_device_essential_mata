@@ -6,3 +6,6 @@ allow system_server vendor_keylayout_file:file r_file_perms;
 get_prop(system_server, vendor_alarm_boot_prop)
 get_prop(system_server, vendor_camera_prop)
 r_dir_file(system_server, proc_sensordata)
+
+# Smart charging
+allow system_server sysfs_battery_supply:file rw_file_perms;
