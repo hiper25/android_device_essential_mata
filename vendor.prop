@@ -125,3 +125,6 @@ persist.delta_time.enable=true
 
 # USB
 persist.sys.usb.config.extra=none
+
+# Target specific Netflix custom property
+ro.netflix.bsp_rev=Q855-16947-1
