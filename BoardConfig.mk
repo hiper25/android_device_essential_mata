@@ -16,6 +16,9 @@
 
 DEVICE_PATH := device/essential/mata
 
+# Broken Rules
+BUILD_BROKEN_DUP_RULES := true
+
 # Platform
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
